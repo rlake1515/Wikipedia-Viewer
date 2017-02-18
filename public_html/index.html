@@ -8,13 +8,33 @@ and open the template in the editor.
     <head>
         <title>Wikipedia Page Viewer</title>
         <meta charset="UTF-8">
+        <link rel="shortcut icon" href="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>        
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+        <link rel="stylesheet" href="WikiCSS.css">
+        <script src="WikiJavascript.js"></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="main" class ="container">
+            <div id="text">
+                Search Wikipedia for articles
+            </div>  
+                <div class="container" id="searchBox">
+            <div class = "input-group add-on">
+      <input type = "text" class = "form-inline" id = "searchText" placeholder = "Search...">
+      <div class="input-group-btn">
+          <button id="searchButton" class="btn" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+   </div>
+            <div class="input-group-btn">
+                <button id="randomButton" class="btn btn-default">
+                    Get Random Article
+                </button>
+            </div>
+                </div>
+            <ul id="pageOutput"></ul>
+        </div>
     </body>
 </html>
