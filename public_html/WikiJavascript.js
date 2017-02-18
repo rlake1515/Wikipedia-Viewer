@@ -32,7 +32,10 @@ function getWikiAPI(searchText){
         success: function(data){
            console.log(data);
            for(let i=0; i<data[1].length; i++){
-               $('#pageOutput').append("<li><a href = "+ data[3][i]+">"+ data[1][i]+"</a>","<br>", data[2][i], "</li>");
+               var link = data[3][i];
+               var title= data[1][i];
+               var text = data[2][i];
+               $("#pageOutput").append(`<li id="listItem"><a href =${link}>${title}</a><br>${text}</li>`);
        }
        $("#searchText").val("");
        }

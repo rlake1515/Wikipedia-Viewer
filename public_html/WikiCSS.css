@@ -1,3 +1,50 @@
+html{
+    font-family:'Lora';
+    height:100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body{
+    background-color: #5171c2;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+    background-attachment: fixed;
+    background-position: center;
+    height:100%
+}
+#main{
+    height: 100%;
+    width: 100;
+}
+#left{
+    background-color: white;
+    background-attachment: fixed;
+    height: 300%;
+    
+}
+#right{
+    background-color: white;
+    height: 300%;
+}
+#content{
+    height:100%;
+}
+#text{
+    text-align: center;
+    font-size: 50pt;
+}
 #searchBox{
-    margin: 00px;
+    margin:  auto;
+    width: 500px;
+}
+#pageOutput{
+    //background: white;
+}
+#listItem{
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25px;
+}
+.searchBar{
+    display: inline-block;
 }
