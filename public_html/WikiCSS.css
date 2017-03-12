@@ -13,7 +13,7 @@ body{
 }
 #main{
     height: 100%;
-    width: 100;
+    width: 100%;
 }
 #left{
     background-color: white;
@@ -31,13 +31,20 @@ body{
 #text{
     text-align: center;
     font-size: 50pt;
+    font-weight: 900;
+    color: white;
 }
 #searchBox{
     margin:  auto;
-    width: 500px;
+    width: 50%;
+}
+#randomButton{
+    text-align: center;
+    margin: 0 auto;
 }
 #pageOutput{
     //background: white;
+    font-weight: 900;
 }
 #listItem{
     background: white;
@@ -47,4 +54,8 @@ body{
 }
 .searchBar{
     display: inline-block;
+}
+.nopadding{
+    margin: 0 !important;
+    padding: 0 !important;
 }

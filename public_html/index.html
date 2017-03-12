@@ -19,29 +19,27 @@ and open the template in the editor.
     </head>
     <body>
         <div id="main" class="container-fluid">
-            <div id="left" class="col-md-2"></div>
+            <div id="left" class="col-md-2 col-xs-2 nopadding"></div>
         <div id="content" class =" inline-block-center col-md-8">
             <div id="text">
                 Search Wikipedia for articles
             </div>  
                 <div class="container" id="searchBox">
                     <div class="row searchBar">
-                        <span class="col-md-10">
+                        <span class="col-md-10 col-xs-2 nopadding">
                         <input type = "text" class = "form-control" id = "searchText" placeholder = "Search...">
                         </span>
-                        <span class="input-group-btn col-md-2">
+                        <span class="input-group-btn col-md-2 nopadding">
                             <button id="searchButton" class="btn" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                         </span>
-                    </div>
-            <div class="input-group-btn">
-                <button id="randomButton" class="btn btn-default col-md-6 col-md-offset-3">
+                <button id="randomButton" class="btn btn-default col-md-6 col-md-offset-6 ">
                     Get Random Article
                 </button>
-            </div>
+                    </div>
                 </div>
             <ul id="pageOutput"></ul>
         </div>
-            <div id="right" class="col-md-2"></div>
+            <div id="right" class="col-md-2 col-xs-2 nopadding"></div>
         </div>
     </body>
 </html>
