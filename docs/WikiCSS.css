@@ -43,8 +43,8 @@ body{
     margin: 0 auto;
 }
 #pageOutput{
-    //background: white;
     font-weight: 900;
+    list-style-type: none;
 }
 #listItem{
     background: white;
